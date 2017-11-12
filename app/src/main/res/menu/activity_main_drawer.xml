@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Áreas protegidas">
+        <menu>
+            <item
+                android:id="@+id/nav_costa"
+                android:icon="@drawable/ic_costa"
+                android:title="Costa" />
+            <item
+                android:id="@+id/nav_sierra"
+                android:icon="@drawable/ic_sierra"
+                android:title="Sierra" />
+            <item
+                android:id="@+id/nav_selva"
+                android:icon="@drawable/ic_selva"
+                android:title="Selva" />
+        </menu>
+    </item>
+
+    <item android:title="Visítanos">
+        <menu>
+            <item
+                android:id="@+id/nav_tickets"
+                android:icon="@drawable/ic_ticket"
+                android:title="Tickets" />
+            <item
+                android:id="@+id/nav_pasaporte"
+                android:icon="@drawable/ic_pasaporte"
+                android:title="Pasaporte" />
+        </menu>
+    </item>
+
+    <item android:title="Aplicación">
+        <menu>
+            <item
+                android:id="@+id/nav_acerca_de"
+                android:icon="@drawable/ic_acerca_de"
+                android:title="Acerca de" />
+            <item
+                android:id="@+id/nav_cerrar_sesion"
+                android:icon="@drawable/ic_cerrar_sesion"
+                android:title="Cerrar sesión" />
+        </menu>
+    </item>
+
+</menu>
